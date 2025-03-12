@@ -26,4 +26,4 @@ def sort_from_vertex(G: Dict[Union[int, str], Set[Union[int, str]]], v: Union[in
             print('Cycle detected') # cycle detected, stop the function
             break
     state[v] = 'black' # set the state of the vertex to black (finished)
-    L.insert(0, v) # insert the vertex to the front of the list
+   #aaaa L.insert(0, v) # insert the vertex to the front of the list
