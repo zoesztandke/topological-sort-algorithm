@@ -27,3 +27,5 @@ def sort_from_vertex(G: Dict[Union[int, str], Set[Union[int, str]]], v: Union[in
             break
     state[v] = 'black' # set the state of the vertex to black (finished)
     L.insert(0, v) # insert the vertex to the front of the list
+
+    # akakdhwaidhuwao
